@@ -101,7 +101,7 @@ if(riddle6.equals("Legs")) {
 			
 		}
 		// 2. Make a pop up to show the score.
-		JOptionPane.showMessageDialog(null," " +score );
+		JOptionPane.showMessageDialog(null,"Your score is " +score );
 
 	}
 }
