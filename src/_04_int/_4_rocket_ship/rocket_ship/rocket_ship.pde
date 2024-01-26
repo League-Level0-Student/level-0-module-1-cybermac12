@@ -1,6 +1,7 @@
 int x = 400; 
 int y = 600; 
 
+    
 void setup() {
     size(800, 800);
     
@@ -16,5 +17,9 @@ void draw() {
     ellipse(x, y + 95, 35, 35);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
-
+    y-=1;
+   
 }
+
+
+ 
